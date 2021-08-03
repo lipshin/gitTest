@@ -11,10 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("hello world")
+        // Do any additional setup after loading the view
+        for _ in 1...5 {
+            print("hello world")
+        }
     }
-
-
 }
 
